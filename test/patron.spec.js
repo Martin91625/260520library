@@ -10,7 +10,9 @@ describe('/api/patrons', () => {
         .post('/api/patrons')
         .set('Accept', 'application/json')
         .send({
-            name: 'Something'
+            idNumber: 'az összes',
+            fullname: 'Something',
+            email: 'valaki@valahol.hu'
         })
         .expect('Content-Type', restype)
         .expect(201)
@@ -28,7 +30,9 @@ describe('/api/patrons', () => {
         .put('/api/patrons/1')
         .set('Accept', 'application/json')
         .send({
-            name: 'Another'
+            idNumber: 'egyik sem',
+            fullname: 'Something',
+            email: 'valaki@valahol.hu'
         })
         .expect('Content-Type', restype)
         .expect(200)
