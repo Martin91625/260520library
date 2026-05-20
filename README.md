@@ -1,16 +1,11 @@
-# sipere expressapi template
+# Sipere könyvtári backend (órai munka)
 
-Express based REST API template.
+## Készítette:
 
-Website:
+El Miri Martin, Dóra Boglárka Szoft I/N tanulók
 
-* [https://sipere.github.io/sipere/](https://sipere.github.io/sipere/)
+## Indítás:
 
-## Install dependencies
+* npm install
+* npm start
 
-```cmd
-npm install
-npm run dev
-```
-
-See the docs directory for details.
