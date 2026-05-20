@@ -7,5 +7,7 @@ El Miri Martin, Dóra Boglárka Szoft I/N tanulók
 ## Indítás:
 
 * npm install
-* npm start
+* npm run dev
+
+egyéb információkért lásd: docs/
 
